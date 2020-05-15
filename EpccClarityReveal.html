@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>EPCC Clarity Reveal.js</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/white.css">
+        <link rel="stylesheet" href="css/epcc.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/monokai.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+<section data-markdown class="title-slide">
+    <textarea data-template>
+# EPCC Clarity Reveal.js
+
+<hr/>
+
+Staff
+
+EPCC, The University of Edinburgh
+
+![EPCC logo](./img/epcc_logo.png)
+    </textarea>
+</section>
+<section data-markdown class="reuse-slide">
+    <textarea data-template>
+## Reusing this material
+
+<center>
+<img src="./img/cc_licence.png" alt="CC-BY-NC-SA logo" height="75"/>
+</center>
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+<center>
+<!-- Leave this blank line in or centering doesn't work! -->
+
+[https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+</center>
+
+This means you are free to copy and redistribute the material and adapt and build on the material under the following terms: You must give appropriate credit, provide a link to the license and indicate if changes were made. If you adapt or build on the material you must distribute your work under the same license as the original.
+
+Acknowledge EPCC as follows: "Copyright &copy; EPCC, The University of Edinburgh"
+
+Note that this presentation contains images owned by others. Please seek their permission before reusing these images.
+    </textarea>
+</section>
+<section data-markdown>
+    <textarea data-template>
+## Slide
+
+Blah
+
+* Blah, *blah*, **blah**, `blah`!
+* Blah
+
+.center[
+Centred blah
+]
+
+.columns[
+.col[
+Left column blah
+]
+.col[
+Right column blah
+]
+]
+
+```
+$ run blah
+```
+
+$$ \frac{dy}{dx} = x - y $$
+
+    </textarea>
+</section>
+<section data-markdown class="references-slide">
+    <textarea data-template>
+## References and acknowledgements
+
+Presentation built using [reveal.js](https://github.com/hakimel/reveal.js) (MIT License) and [MathJax](https://www.mathjax.org/) (MIT License).
+    </textarea>
+</section>
+            </div>
+        </div>
+        <script src="js/reveal.js"></script>
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                hash: true,
+                slideNumber: true,
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/highlight/highlight.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+
+                    { src: 'plugin/math/math.js', async: true }
+                ],
+                math: {
+                    mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+                    config: 'TeX-AMS_HTML-full', // See http://docs.mathjax.org/en/latest/config-files.html
+                   // pass other options into `MathJax.Hub.Config()`
+                   TeX: { Macros: { RR: "{\\bf R}" } }
+                },
+            });
+        </script>
+    </body>
+</html>
