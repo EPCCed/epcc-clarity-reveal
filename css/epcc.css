@@ -1,0 +1,52 @@
+/*
+ * epcc_clarity.thmx-style CSS.
+ */
+
+.reveal .slides {
+  text-align: left;
+}
+.reveal .slides body { 
+  font-family: "Arial";
+  color: #292934;
+}
+.reveal .slides p,
+.reveal .slides li,
+.reveal .slides th,
+.reveal .slides td { 
+  font-family: "Arial";
+  font-size: 20pt;
+  line-height: 1.2;
+}
+.reveal .slides h1,
+.reveal .slides h2,
+.reveal .slides h3 {
+  font-family: "Arial";
+  font-weight: normal;
+  color: #A53926;
+  text-transform: none;
+}
+.reveal .slides img {
+  border: 0;
+  background: None;
+  box-shadow: None;
+  float: center;
+}
+.reveal .title-slide h1
+{
+    font-size: 54pt;
+}
+.reveal .title-slide hr
+{
+    border-color: #D2533C;
+}
+.reveal .title-slide p
+{
+  font-size: 24pt;
+  color: #57576E;
+}
+.reveal .reuse-slide p {
+  font-size: 15pt;
+}
+.reveal .references-slide p {
+  font-size: 14pt;
+}
