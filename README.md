@@ -60,7 +60,7 @@ The following files were imported from reveal.js-3.9.2 and are Copyright (C) 202
 .travis.yml
 bower.json
 CONTRIBUTING.md
-css/ # Except for epcc.css.
+css/ # Except for epcc-clarity.css.
 demo.html
 gruntfile.js
 index.html
