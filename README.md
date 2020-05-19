@@ -65,7 +65,7 @@ CONTRIBUTING.md
 css/ # Except for epcc-clarity.css.
 demo.html
 gruntfile.js
-index.html
+remark-index.html # Renamed from index.html.
 js/
 lib/
 LICENSE
