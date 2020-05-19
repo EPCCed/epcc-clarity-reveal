@@ -2,6 +2,8 @@
 
 epcc_clarity.thmx-style HTML presentation built using [reveal.js](https://github.com/hakimel/reveal.js)
 
+See [EpccClarityReveal.html](./EpccClarityReveal.html) for an example.
+
 ---
 
 ## Install nodejs (optional)
